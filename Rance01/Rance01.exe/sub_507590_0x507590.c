@@ -1,0 +1,167 @@
+// 函数: sub_507590
+// 地址: 0x507590
+// 来自: E:\torrent\AliceSoft\ランス01\Rance01.exe
+
+int32_t var_4_1 = 0xffffffff
+int32_t (* var_8)(void* arg1) = sub_727c87
+TEB* fsbase
+struct _EXCEPTION_REGISTRATION_RECORD* ExceptionList = fsbase->NtTib.ExceptionList
+int32_t __saved_edi
+int32_t var_20 = data_78c474 ^ &__saved_edi
+fsbase->NtTib.ExceptionList = &ExceptionList
+*arg1 = 0
+arg1[1] = 0
+sub_50a130(&arg1[2])
+arg1[0x39] = &sealengine::CRenderConfig::`vftable'
+arg1[0x3a] = 0
+arg1[0x3b] = 0
+arg1[0x3c] = 0
+arg1[0x3d].b = 0
+arg1[0x3e] = 1
+int32_t var_4 = 0
+arg1[0x3f] = 1
+arg1[0x41] = 0
+arg1[0x42] = 0
+arg1[0x43] = 0
+arg1[0x45] = arg2
+arg1[0x46].b = 1
+arg1[0x47] = 0
+arg1[0x48] = 0
+sub_519780(&arg1[0x4b])
+sub_5141e0(&arg1[0x85])
+arg1[0xb1] = 0
+arg1[0xb2] = 0
+arg1[0xb3] = 0
+long double x87_r7 = float.t(0)
+arg1[0xb5] = fconvert.s(x87_r7)
+arg1[0xb6] = fconvert.s(x87_r7)
+arg1[0xb7] = fconvert.s(x87_r7)
+arg1[0xb8] = fconvert.s(x87_r7)
+arg1[0xb9] = fconvert.s(x87_r7)
+arg1[0xba] = fconvert.s(x87_r7)
+__builtin_memset(&arg1[0xbb], 0, 0x80)
+arg1[0xdc] = 0
+arg1[0xdd] = 0
+arg1[0xde] = 0
+arg1[0xdf].b = 0
+arg1[0xe0] = 0
+arg1[0xe1].b = 0
+arg1[0xe3] = fconvert.s(x87_r7)
+arg1[0xe2] = 0
+arg1[0xe4] = fconvert.s(x87_r7)
+arg1[0xe7] = 0
+arg1[0xe5] = fconvert.s(x87_r7)
+arg1[0xea].b = 0
+arg1[0xe6] = fconvert.s(x87_r7)
+arg1[0xe8] = fconvert.s(x87_r7)
+arg1[0xe9] = fconvert.s(x87_r7)
+sub_4b86e0(&arg1[0xeb])
+long double x87_r7_1 = float.t(0)
+arg1[0x112] = fconvert.s(x87_r7_1)
+arg1[0x111] = 0
+arg1[0x113] = fconvert.s(x87_r7_1)
+arg1[0x116] = 0
+arg1[0x114] = fconvert.s(x87_r7_1)
+arg1[0x119].b = 0
+arg1[0x115] = fconvert.s(x87_r7_1)
+arg1[0x117] = fconvert.s(x87_r7_1)
+arg1[0x118] = fconvert.s(x87_r7_1)
+arg1[0x11a] = 0
+arg1[0x11b] = 0
+arg1[0x11c] = 0
+__builtin_memset(&arg1[0x11e], 0, 0x11)
+arg1[0x123] = 0
+arg1[0x124].b = 0
+arg1[0x126] = fconvert.s(x87_r7_1)
+arg1[0x127] = fconvert.s(x87_r7_1)
+arg1[0x125] = 0
+arg1[0x128] = fconvert.s(x87_r7_1)
+arg1[0x12a] = 0
+arg1[0x129] = fconvert.s(x87_r7_1)
+arg1[0x12d].b = 0
+arg1[0x12b] = fconvert.s(x87_r7_1)
+arg1[0x12c] = fconvert.s(x87_r7_1)
+arg1[0x12e] = 0
+arg1[0x12f] = 0
+arg1[0x130] = 0
+arg1[0x131].b = 0
+arg1[0x132] = 0
+arg1[0x133].b = 0
+arg1[0x135] = fconvert.s(x87_r7_1)
+arg1[0x136] = fconvert.s(x87_r7_1)
+arg1[0x134] = 0
+arg1[0x137] = fconvert.s(x87_r7_1)
+arg1[0x139] = 0
+arg1[0x138] = fconvert.s(x87_r7_1)
+arg1[0x13c].b = 0
+arg1[0x13a] = fconvert.s(x87_r7_1)
+arg1[0x13b] = fconvert.s(x87_r7_1)
+arg1[0x13d] = 0
+arg1[0x13e] = 0
+arg1[0x140] = 0
+arg1[0x141] = 0
+arg1[0x142] = 0
+arg1[0x143].b = 0
+arg1[0x144] = 0
+arg1[0x145].b = 0
+arg1[0x147] = fconvert.s(x87_r7_1)
+arg1[0x148] = fconvert.s(x87_r7_1)
+arg1[0x146] = 0
+arg1[0x149] = fconvert.s(x87_r7_1)
+arg1[0x14b] = 0
+arg1[0x14a] = fconvert.s(x87_r7_1)
+arg1[0x14e].b = 0
+arg1[0x14c] = fconvert.s(x87_r7_1)
+arg1[0x14d] = fconvert.s(x87_r7_1)
+arg1[0x14f] = 0
+arg1[0x150] = 0
+arg1[0x151] = 0
+arg1[0x153] = 0
+arg1[0x155] = 0
+arg1[0x156] = 0
+arg1[0x157] = 0
+arg1[0x158].b = 0
+arg1[0x159] = 0
+arg1[0x15a].b = 0
+sub_51a410(&arg1[0x15c])
+long double x87_r7_2 = float.t(0)
+arg1[0x186] = 0
+arg1[0x187] = 0
+arg1[0x188] = 0
+arg1[0x19f] = fconvert.s(x87_r7_2)
+arg1[0x18a] = 0
+arg1[0x1a0] = fconvert.s(x87_r7_2)
+arg1[0x18b] = 0
+arg1[0x1a1] = fconvert.s(x87_r7_2)
+arg1[0x18c] = 0
+arg1[0x18e] = 0
+arg1[0x18f] = 0
+arg1[0x190] = 0
+arg1[0x192] = 0
+arg1[0x193] = 0
+arg1[0x194] = 0
+arg1[0x196] = 0
+arg1[0x197] = 0
+arg1[0x198] = 0
+arg1[0x19a] = 0
+arg1[0x19b] = 0
+arg1[0x19c] = 0
+arg1[0x19e] = fconvert.s(fconvert.t(8f))
+arg1[0x1a2] = 0
+var_4.b = 0xf
+arg1[0x1a3] = arg2
+sub_51b170(&arg1[0x1a7])
+arg1[0x1a4] = 0
+arg1[0x1a5] = 0
+arg1[0x1a6] = 0
+arg1[0x10f].b = 0
+arg1[0x110] = 0
+arg1[0x13f].b = 0
+arg1[0x154].b = 0
+arg1[0x15b].b = 0
+arg1[0x49].b = 0
+arg1[0x4a] = 0xffffffff
+arg1[0xdb] = 0
+arg1[0x40] = 0
+fsbase->NtTib.ExceptionList = ExceptionList
+return arg1

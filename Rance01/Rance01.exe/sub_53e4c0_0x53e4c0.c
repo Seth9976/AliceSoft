@@ -1,0 +1,18 @@
+// 函数: sub_53e4c0
+// 地址: 0x53e4c0
+// 来自: E:\torrent\AliceSoft\ランス01\Rance01.exe
+
+*(arg1 + 0x2b0) -= 4
+int32_t ecx_1 = **(arg1 + 0x2b0)
+
+if (ecx_1 == 0)
+    *(*(arg1 + 0x2b0) - 4) = ecx_1
+    void* eax
+    eax.b = 1
+    return eax
+
+void* esi = *(arg1 + 0x2b0)
+int32_t eax_3
+eax_3.b = 1
+*(esi - 4) = mods.dp.d(sx.q(*(esi - 4)), ecx_1)
+return eax_3

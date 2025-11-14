@@ -1,0 +1,49 @@
+// 函数: sub_5141e0
+// 地址: 0x5141e0
+// 来自: E:\torrent\AliceSoft\ランス01\Rance01.exe
+
+long double x87_r7 = float.t(0)
+*(arg1 + 0xc) = 0
+*(arg1 + 0x10) = 0
+*(arg1 + 0x14) = 0
+arg1[0x18] = 0
+*(arg1 + 0x1c) = 0
+arg1[0x20] = 0
+*(arg1 + 0x28) = fconvert.s(x87_r7)
+*(arg1 + 0x2c) = fconvert.s(x87_r7)
+*(arg1 + 0x24) = 0
+*(arg1 + 0x30) = fconvert.s(x87_r7)
+*(arg1 + 0x38) = 0
+*(arg1 + 0x34) = fconvert.s(x87_r7)
+arg1[0x44] = 0
+*(arg1 + 0x3c) = fconvert.s(x87_r7)
+*(arg1 + 0x40) = fconvert.s(x87_r7)
+arg1[0x48] = 0
+*(arg1 + 0x4c) = 0
+*(arg1 + 0x50) = 0
+*(arg1 + 0x54) = 0
+arg1[0x58] = 0
+*(arg1 + 0x5c) = 0
+arg1[0x60] = 0
+*(arg1 + 0x64) = 0
+*(arg1 + 0x68) = 0
+*(arg1 + 0x6c) = 0
+arg1[0x70] = 0
+*(arg1 + 0x74) = 0
+arg1[0x78] = 0
+*(arg1 + 0x80) = fconvert.s(x87_r7)
+*(arg1 + 0x84) = fconvert.s(x87_r7)
+*(arg1 + 0x7c) = 0
+*(arg1 + 0x88) = fconvert.s(x87_r7)
+*(arg1 + 0x90) = 0
+*(arg1 + 0x8c) = fconvert.s(x87_r7)
+arg1[0x9c] = 0
+*(arg1 + 0x94) = fconvert.s(x87_r7)
+*(arg1 + 0x98) = fconvert.s(x87_r7)
+*(arg1 + 0xa4) = 0
+*(arg1 + 0xa8) = 0
+*(arg1 + 0xa0) = 3
+*arg1 = 0
+*(arg1 + 4) = 0
+*(arg1 + 8) = 0
+*(arg1 + 0xac) = 0

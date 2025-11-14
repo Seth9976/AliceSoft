@@ -1,0 +1,101 @@
+// 函数: sub_709060
+// 地址: 0x709060
+// 来自: E:\torrent\AliceSoft\ランス01\Rance01.exe
+
+int64_t* esi = arg2
+int64_t* eax = arg3
+int64_t* ebx = arg4
+void* edi = arg5
+int32_t i_1 = 8
+int32_t i
+
+do
+    uint16_t st3[0x4] = *eax
+    int16_t st0[0x4] = data_78e3e8
+    int16_t st2[0x4] = data_78e3f0
+    uint16_t temp0_1[0x4] = _m_psllwi(*ebx, 4)
+    uint16_t temp0_2[0x4] = _m_psllwi(st3, 4)
+    int16_t temp0_3[0x4] = _m_pmulhw(st0, temp0_1)
+    int16_t temp0_4[0x4] = _m_pmulhw(st2, temp0_2)
+    int16_t st4[0x4] = data_78e400
+    int16_t st5[0x4] = *u"XXXX"
+    st0 = __psubw_mmxq_memq(temp0_3, data_78e410)
+    st2 = __psubw_mmxq_memq(temp0_4, data_78e408)
+    uint16_t temp0_7[0x4] = _m_psrlwi(temp0_1, 4)
+    uint16_t temp0_8[0x4] = _m_psrlwi(temp0_2, 4)
+    int16_t temp0_9[0x4] = _m_pmullw(st4, temp0_7)
+    int16_t temp0_10[0x4] = _m_pmullw(st5, temp0_8)
+    int64_t st6 = *esi
+    int80_t st7
+    st7.q = 0
+    st4 = __psubw_mmxq_memq(_m_paddw(temp0_9, temp0_10), data_78e418)
+    uint16_t st1[0x4] = data_78e420
+    int16_t temp0_13[0x4] = _m_psrawi(st4, 8)
+    st0 = _m_paddsw(st0, st6)
+    st2 = _m_paddsw(st2, st6)
+    int64_t temp0_16 = _m_psubsw(st6, temp0_13)
+    int16_t temp0_17[0x4] = _m_packuswb(st0, 0)
+    int16_t temp0_18[0x4] = _m_packuswb(st2, 0)
+    st6 = _m_packuswb(temp0_16, 0)
+    st0 = _m_punpckhwd(temp0_17, 0)
+    st2 = _m_punpckhwd(temp0_18, 0)
+    st6 = _m_punpckhwd(st6, 0)
+    uint16_t temp0_23[0x4] = _m_punpcklwd(st0, 0)
+    st4 = _m_punpcklwd(st2, 0)
+    st5 = _m_punpcklwd(st6, 0)
+    st0 = __punpckhwd_mmxq_mmxd(st0, 0)
+    st2 = __punpckhwd_mmxq_mmxd(st2, 0)
+    int64_t temp0_28 = __punpckhwd_mmxq_mmxd(st6, 0)
+    st4 = _m_pslldi(st4, 0x10)
+    st5 = _m_pslldi(st5, 8)
+    st0 = st0 | _m_pslldi(st2, 0x10) | _m_pslldi(temp0_28, 8) | st1
+    *edi = temp0_23 | st4 | st5 | st1
+    *(edi + 8) = st0
+    st5 = eax[1]
+    st6 = data_78e3e8
+    st2 = data_78e3f0
+    st4 = _m_psllwi(ebx[1], 4)
+    st5 = _m_psllwi(st5, 4)
+    st6 = _m_pmulhw(st6, st4)
+    int16_t temp0_36[0x4] = _m_pmulhw(st2, st5)
+    st1 = data_78e400
+    st3 = *u"XXXX"
+    int64_t temp0_37 = __psubw_mmxq_memq(st6, data_78e410)
+    st2 = __psubw_mmxq_memq(temp0_36, data_78e408)
+    st4 = _m_psrlwi(st4, 4)
+    st5 = _m_psrlwi(st5, 4)
+    st1 = _m_pmullw(st1, st4)
+    st3 = _m_pmullw(st3, st5)
+    st0 = esi[1]
+    st7.q = 0
+    st3 = __psubw_mmxq_memq(_m_paddw(st3, st1), data_78e418)
+    st1 = data_78e420
+    st3 = _m_psrawi(st3, 8)
+    int64_t temp0_46 = _m_paddsw(temp0_37, st0)
+    st2 = _m_paddsw(st2, st0)
+    st0 = _m_psubsw(st0, st3)
+    st6 = _m_packuswb(temp0_46, 0)
+    int16_t temp0_50[0x4] = _m_packuswb(st2, 0)
+    int16_t temp0_51[0x4] = _m_packuswb(st0, 0)
+    st6 = _m_punpckhwd(st6, 0)
+    st2 = _m_punpckhwd(temp0_50, 0)
+    st0 = _m_punpckhwd(temp0_51, 0)
+    uint16_t temp0_55[0x4] = _m_punpcklwd(st6, 0)
+    st4 = _m_punpcklwd(st2, 0)
+    st5 = _m_punpcklwd(st0, 0)
+    int64_t temp0_58 = __punpckhwd_mmxq_mmxd(st6, 0)
+    st2 = __punpckhwd_mmxq_mmxd(st2, 0)
+    st0 = __punpckhwd_mmxq_mmxd(st0, 0)
+    st4 = _m_pslldi(st4, 0x10)
+    st5 = _m_pslldi(st5, 8)
+    st6 = temp0_58 | _m_pslldi(st2, 0x10) | _m_pslldi(st0, 8) | st1
+    esi = &esi[2]
+    eax = &eax[2]
+    ebx = &ebx[2]
+    *(edi + 0x10) = temp0_55 | st4 | st5 | st1
+    *(edi + 0x18) = st6
+    edi += arg6
+    i = i_1
+    i_1 -= 1
+while (i != 1)
+return arg1

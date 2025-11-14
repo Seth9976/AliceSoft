@@ -1,0 +1,23 @@
+// 函数: sub_66abe0
+// 地址: 0x66abe0
+// 来自: E:\torrent\AliceSoft\ランス01\Rance01.exe
+
+void* eax_2 = *arg1
+
+if ((arg1[1] - eax_2) s>> 2 s>= arg2)
+    void* esi_1 = *(eax_2 + (arg2 << 2) - 4)
+    
+    if (esi_1 != 0 && *(esi_1 + 8) == 4 && (*(esi_1 + 0x60) - *(esi_1 + 0x5c)) s>> 4 s> arg3)
+        eax_2 = sub_669120(esi_1, arg4)
+        
+        if (eax_2 s>= 0 && arg3 s>= 0)
+            eax_2 = *(*(*(esi_1 + 0x5c) + arg3 * 0x10) + (eax_2 << 2))
+            
+            if (*(eax_2 + 8) == 2)
+                *arg5 = fconvert.s(fconvert.t(*(eax_2 + 0x2c)))
+                float* eax_3
+                eax_3.b = 1
+                return eax_3
+
+eax_2.b = 0
+return eax_2

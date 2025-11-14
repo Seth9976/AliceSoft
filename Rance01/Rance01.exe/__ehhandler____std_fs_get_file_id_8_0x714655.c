@@ -1,0 +1,6 @@
+// 函数: __ehhandler$___std_fs_get_file_id@8
+// 地址: 0x714655
+// 来自: E:\torrent\AliceSoft\ランス01\Rance01.exe
+
+sub_6b4885(*(arg1 - 0x20) ^ (arg1 + 0xc))
+return sub_6bb3b5(0x775f38) __tailcall

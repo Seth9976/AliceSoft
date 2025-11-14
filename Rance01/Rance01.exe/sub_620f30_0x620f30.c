@@ -1,0 +1,51 @@
+// 函数: sub_620f30
+// 地址: 0x620f30
+// 来自: E:\torrent\AliceSoft\ランス01\Rance01.exe
+
+int32_t var_4_1 = 0xffffffff
+int32_t (* var_8)(void* arg1) = sub_716068
+TEB* fsbase
+struct _EXCEPTION_REGISTRATION_RECORD* ExceptionList = fsbase->NtTib.ExceptionList
+int32_t var_38
+int32_t eax_2 = data_78c474 ^ &var_38
+int32_t __saved_edi
+int32_t var_4c = data_78c474 ^ &__saved_edi
+fsbase->NtTib.ExceptionList = &ExceptionList
+int32_t var_20 = 0xf
+int32_t var_24 = 0
+char var_34 = 0
+int32_t var_4 = 0
+var_38 = arg3
+char* eax_6 = arg1
+char i
+
+do
+    i = *eax_6
+    eax_6 = &eax_6[1]
+while (i != 0)
+sub_401270(&var_34, eax_6 - &eax_6[1], arg1)
+char var_14 = 1
+int32_t var_18 = 0
+sub_630580(&var_38, &arg2[0x4c])
+int32_t eax_8
+int32_t edx
+edx:eax_8 = muls.dp.d(0x66666667, arg2[0x4d] - arg2[0x4c])
+int32_t edx_1 = edx s>> 4
+
+if ((edx_1 u>> 0x1f) + edx_1 == 1)
+    sub_6210d0(arg2, 0)
+
+sub_620900(arg2)
+sub_620a40(arg2)
+sub_620da0(arg2)
+sub_621250(arg2)
+InvalidateRect(arg2[0x22], nullptr, 1)
+BOOL result = UpdateWindow(arg2[0x22])
+
+if (var_20 u>= 0x10)
+    int32_t var_50_3 = var_34.d
+    result = sub_6b4d5b()
+
+fsbase->NtTib.ExceptionList = ExceptionList
+sub_6b4885(eax_2 ^ &var_38)
+return result

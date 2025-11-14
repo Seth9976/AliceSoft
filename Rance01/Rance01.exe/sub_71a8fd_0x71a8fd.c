@@ -1,0 +1,5 @@
+// 函数: sub_71a8fd
+// 地址: 0x71a8fd
+// 来自: E:\torrent\AliceSoft\ランス01\Rance01.exe
+
+return sub_5378f0(*(arg1 + 4) + 0x9c) __tailcall

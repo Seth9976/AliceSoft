@@ -1,0 +1,24 @@
+// 函数: sub_423050
+// 地址: 0x423050
+// 来自: E:\torrent\AliceSoft\ランス01\Rance01.exe
+
+*arg1 = 0
+arg1[1] = 0
+arg1[6] = 0
+arg1[7] = 0xf
+arg1[2].b = 0
+arg1[0xe] = 0xf
+arg1[0xd] = 0
+arg1[9].b = 0
+arg1[0x15] = 0xf
+arg1[0x14] = 0
+arg1[0x10].b = 0
+arg1[0x1c] = 0xf
+arg1[0x1b] = 0
+arg1[0x17].b = 0
+arg1[0x1e] = 0
+arg1[0x1f] = 0
+arg1[0x20] = 0
+arg1[0x27] = 0xf
+arg1[0x26] = 0
+arg1[0x22].b = 0

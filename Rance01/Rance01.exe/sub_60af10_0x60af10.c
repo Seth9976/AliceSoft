@@ -1,0 +1,23 @@
+// 函数: sub_60af10
+// 地址: 0x60af10
+// 来自: E:\torrent\AliceSoft\ランス01\Rance01.exe
+
+*arg2 = 0
+arg2[1] = 0
+arg2[2] = 0
+
+if (arg1 == 0)
+    int32_t eax
+    eax.b = 0
+    return 0
+
+if (arg1 u> 0x2108421)
+    sub_6b47bf("vector<T> too long")
+    noreturn
+
+int32_t result = sub_5856e0(arg1)
+*arg2 = result
+arg2[1] = result
+arg2[2] = arg1 * 0x7c + result
+result.b = 1
+return result

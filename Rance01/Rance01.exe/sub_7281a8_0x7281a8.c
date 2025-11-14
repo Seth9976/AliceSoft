@@ -1,0 +1,5 @@
+// 函数: sub_7281a8
+// 地址: 0x7281a8
+// 来自: E:\torrent\AliceSoft\ランス01\Rance01.exe
+
+return sub_401040(arg1 - 0x6c) __tailcall

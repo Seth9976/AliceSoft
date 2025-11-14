@@ -1,0 +1,20 @@
+// 函数: sub_66a530
+// 地址: 0x66a530
+// 来自: E:\torrent\AliceSoft\ランス01\Rance01.exe
+
+int32_t eax_2 = *arg1
+
+if ((arg1[1] - eax_2) s>> 2 s>= arg2)
+    void* esi_1 = *(eax_2 + (arg2 << 2) - 4)
+    
+    if (esi_1 != 0 && *(esi_1 + 8) == 4 && (*(esi_1 + 0x60) - *(esi_1 + 0x5c)) s>> 4 s> arg3)
+        eax_2 = sub_669120(esi_1, arg4)
+        
+        if (eax_2 s>= 0 && arg3 s>= 0)
+            *arg5 = *(*(*(*(esi_1 + 0x5c) + arg3 * 0x10) + (eax_2 << 2)) + 8)
+            void* eax_3
+            eax_3.b = 1
+            return eax_3
+
+eax_2.b = 0
+return eax_2

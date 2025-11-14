@@ -1,0 +1,52 @@
+// 函数: sub_7039e0
+// 地址: 0x7039e0
+// 来自: E:\torrent\AliceSoft\ランス01\Rance01.exe
+
+int16_t st2[0x4] = arg1[1]
+int16_t st3[0x4] = arg2[1]
+int16_t temp0[0x4] = _m_pmullw(*arg1, *arg2)
+int16_t temp0_1[0x4] = _m_pmullw(st2, st3)
+*arg1 = temp0
+arg1[1] = temp0_1
+st2 = arg1[3]
+st3 = arg2[3]
+int16_t temp0_2[0x4] = _m_pmullw(arg1[2], arg2[2])
+int16_t temp0_3[0x4] = _m_pmullw(st2, st3)
+arg1[2] = temp0_2
+arg1[3] = temp0_3
+st2 = arg1[5]
+st3 = arg2[5]
+int16_t temp0_4[0x4] = _m_pmullw(arg1[4], arg2[4])
+int16_t temp0_5[0x4] = _m_pmullw(st2, st3)
+arg1[4] = temp0_4
+arg1[5] = temp0_5
+st2 = arg1[7]
+st3 = arg2[7]
+int16_t temp0_6[0x4] = _m_pmullw(arg1[6], arg2[6])
+int16_t temp0_7[0x4] = _m_pmullw(st2, st3)
+arg1[6] = temp0_6
+arg1[7] = temp0_7
+st2 = arg1[9]
+st3 = arg2[9]
+int16_t temp0_8[0x4] = _m_pmullw(arg1[8], arg2[8])
+int16_t temp0_9[0x4] = _m_pmullw(st2, st3)
+arg1[8] = temp0_8
+arg1[9] = temp0_9
+st2 = arg1[0xb]
+st3 = arg2[0xb]
+int16_t temp0_10[0x4] = _m_pmullw(arg1[0xa], arg2[0xa])
+int16_t temp0_11[0x4] = _m_pmullw(st2, st3)
+arg1[0xa] = temp0_10
+arg1[0xb] = temp0_11
+st2 = arg1[0xd]
+st3 = arg2[0xd]
+int16_t temp0_12[0x4] = _m_pmullw(arg1[0xc], arg2[0xc])
+int16_t temp0_13[0x4] = _m_pmullw(st2, st3)
+arg1[0xc] = temp0_12
+arg1[0xd] = temp0_13
+st2 = arg1[0xf]
+st3 = arg2[0xf]
+int16_t temp0_14[0x4] = _m_pmullw(arg1[0xe], arg2[0xe])
+int16_t temp0_15[0x4] = _m_pmullw(st2, st3)
+arg1[0xe] = temp0_14
+arg1[0xf] = temp0_15

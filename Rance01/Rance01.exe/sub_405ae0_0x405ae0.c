@@ -1,0 +1,44 @@
+// 函数: sub_405ae0
+// 地址: 0x405ae0
+// 来自: E:\torrent\AliceSoft\ランス01\Rance01.exe
+
+int32_t ecx
+int32_t var_4_1 = ecx
+void** esi = arg1
+int32_t var_4 = ecx
+void** edi = esi
+
+if (*(esi + 0x71) != 0)
+    return 
+
+do
+    sub_405ae0(edi[2])
+    edi = *edi
+    
+    if (esi[0x1a] u>= 0x10)
+        int32_t var_18_2 = esi[0x15]
+        sub_6b4d5b()
+    
+    esi[0x1a] = 0xf
+    esi[0x19] = 0
+    esi[0x15].b = 0
+    
+    if (esi[0x13] u>= 0x10)
+        int32_t var_18_3 = esi[0xe]
+        sub_6b4d5b()
+    
+    esi[0x13] = 0xf
+    esi[0x12] = 0
+    esi[0xe].b = 0
+    
+    if (esi[8] u>= 0x10)
+        int32_t var_18_4 = esi[3]
+        sub_6b4d5b()
+    
+    esi[8] = 0xf
+    esi[7] = 0
+    void** var_18_5 = esi
+    esi[3].b = 0
+    sub_6b4d5b()
+    esi = edi
+while (*(edi + 0x71) == 0)

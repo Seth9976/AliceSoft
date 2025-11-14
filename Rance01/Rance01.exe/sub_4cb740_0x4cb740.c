@@ -1,0 +1,56 @@
+// 函数: sub_4cb740
+// 地址: 0x4cb740
+// 来自: E:\torrent\AliceSoft\ランス01\Rance01.exe
+
+float var_4 = arg3
+int128_t* edx = *(arg1 + 0x10)
+var_4 = fconvert.s(float.t(0))
+void* eax = *(arg1 + 0xc)
+int32_t ecx_2 = (edx - eax) s>> 2
+
+if (ecx_2 u< 0x29)
+    sub_4cbe10(0x29 - ecx_2, arg1 + 0xc, edx, &var_4)
+else if (ecx_2 u> 0x29 && eax + 0xa4 != edx)
+    void* ebx_1 = 0 s>> 2 << 2
+    sub_6b49d0(eax + 0xa4, edx, ebx_1)
+    *(arg1 + 0x10) = ebx_1 + eax + 0xa4
+
+float* eax_5 = *(arg1 + 0xc)
+long double x87_r7_1 = float.t(1)
+*eax_5 = fconvert.s(x87_r7_1)
+eax_5[1] = fconvert.s(x87_r7_1)
+eax_5[2] = fconvert.s(fconvert.t(0.219999999f))
+long double x87_r6_1 = fconvert.t(0.300000012f)
+eax_5[3] = fconvert.s(x87_r6_1)
+eax_5[4] = fconvert.s(fconvert.t(0.100000001f))
+eax_5[5] = fconvert.s(fconvert.t(0.200000003f))
+eax_5[6] = fconvert.s(fconvert.t(0.00999999978f))
+eax_5[7] = fconvert.s(x87_r6_1)
+long double x87_r5_3 = fconvert.t(-1f)
+eax_5[8] = fconvert.s(x87_r5_3)
+eax_5[9] = fconvert.s(x87_r5_3)
+eax_5[0xa] = fconvert.s(x87_r7_1)
+long double x87_r4 = fconvert.t(1.20000005f)
+eax_5[0xb] = fconvert.s(x87_r4)
+eax_5[0xc] = fconvert.s(x87_r4)
+eax_5[0xd] = fconvert.s(x87_r4)
+long double x87_r4_1 = fconvert.t(0.5f)
+eax_5[0xe] = fconvert.s(x87_r4_1)
+eax_5[0xf] = fconvert.s(x87_r4_1)
+eax_5[0x10] = fconvert.s(x87_r4_1)
+eax_5[0x11] = fconvert.s(x87_r6_1)
+eax_5[0x12] = fconvert.s(x87_r6_1)
+eax_5[0x13] = fconvert.s(x87_r6_1)
+eax_5[0x14] = fconvert.s(fconvert.t(0.25f))
+eax_5[0x15] = fconvert.s(fconvert.t(1.25f))
+eax_5[0x16] = fconvert.s(fconvert.t(0.0500000007f))
+eax_5[0x17] = fconvert.s(fconvert.t(140f))
+eax_5[0x18] = fconvert.s(x87_r5_3)
+eax_5[0x19] = fconvert.s(x87_r5_3)
+eax_5[0x1a] = fconvert.s(x87_r7_1)
+eax_5[0x1b] = fconvert.s(x87_r7_1)
+eax_5[0x1c] = fconvert.s(x87_r7_1)
+eax_5[0x1d] = fconvert.s(x87_r7_1)
+eax_5[0x1e] = fconvert.s(x87_r4_1)
+eax_5[0x1f] = fconvert.s(x87_r4_1)
+eax_5[0x20] = fconvert.s(x87_r4_1)

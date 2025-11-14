@@ -1,0 +1,26 @@
+// 函数: sub_636c40
+// 地址: 0x636c40
+// 来自: E:\torrent\AliceSoft\ランス01\Rance01.exe
+
+arg1[0x53] = &dpparts::CGuiCheckBox::`vftable'
+arg1[0x4f] = &dpparts::CGuiCheckBox::`vftable'
+arg1[0x4b] = &dpparts::CGuiCheckBox::`vftable'
+arg1[0x47] = &dpparts::CGuiCheckBox::`vftable'
+arg1[0x43] = &dpparts::CGuiCheckBox::`vftable'
+arg1[0x3f] = &dpparts::CGuiCheckBox::`vftable'
+arg1[0x3b] = &dpparts::CGuiCheckBox::`vftable'
+arg1[0x37] = &dpparts::CGuiCheckBox::`vftable'
+arg1[0x33] = &dpparts::CGuiCheckBox::`vftable'
+arg1[0x2f] = &dpparts::CGuiCheckBox::`vftable'
+arg1[0x2b] = &dpparts::CGuiCheckBox::`vftable'
+arg1[0x27] = &dpparts::CGuiCheckBox::`vftable'
+arg1[0x23] = &dpparts::CGuiCheckBox::`vftable'
+arg1[0x1f] = &dpparts::CGuiCheckBox::`vftable'
+arg1[0x1b] = &dpparts::CGuiCheckBox::`vftable'
+arg1[0x17] = &dpparts::CGuiCheckBox::`vftable'
+arg1[0x13] = &dpparts::CGuiCheckBox::`vftable'
+arg1[0xf] = &dpparts::CGuiCheckBox::`vftable'
+arg1[0xb] = &dpparts::CGuiCheckBox::`vftable'
+arg1[7] = &dpparts::CGuiCheckBox::`vftable'
+*arg1 = &dpparts::CDialog::`vftable'
+return &dpparts::CGuiCheckBox::`vftable'

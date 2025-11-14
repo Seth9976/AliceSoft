@@ -1,0 +1,194 @@
+// 函数: sub_638e20
+// 地址: 0x638e20
+// 来自: E:\torrent\AliceSoft\ランス01\Rance01.exe
+
+int32_t var_4_1 = 0xffffffff
+int32_t (* var_8)(void* arg1) = sub_71cad5
+TEB* fsbase
+struct _EXCEPTION_REGISTRATION_RECORD* ExceptionList = fsbase->NtTib.ExceptionList
+int32_t __saved_edi
+int32_t var_20 = data_78c474 ^ &__saved_edi
+fsbase->NtTib.ExceptionList = &ExceptionList
+sub_65e270(arg5, arg3, arg4, 8, arg6, arg2, arg1, 0, arg7)
+int32_t var_4 = 0
+*arg3 = &dpparts::CDPPartsListWindow::`vftable'{for `dpparts::CWindow'}
+arg3[0x17] = 0x18
+arg3[0x18] = 8
+arg3[0x19] = 0xc
+arg3[0x1f] = 0xf
+arg3[0x1e] = 0
+arg3[0x1a].b = 0
+sub_401270(&arg3[0x1a], 0xb, "         No")
+var_4.b = 1
+arg3[0x26] = 0xf
+arg3[0x25] = 0
+arg3[0x21].b = 0
+sub_401270(&arg3[0x21], 9, "     ")
+var_4.b = 2
+arg3[0x2d] = 0xf
+arg3[0x2c] = 0
+arg3[0x28].b = 0
+sub_401270(&arg3[0x28], 0xa, "   (    X,")
+var_4.b = 3
+arg3[0x34] = 0xf
+arg3[0x33] = 0
+arg3[0x2f].b = 0
+sub_401270(&arg3[0x2f], 6, "    Y)")
+var_4.b = 4
+arg3[0x3b] = 0xf
+arg3[0x3a] = 0
+arg3[0x36].b = 0
+sub_401270(&arg3[0x36], 0xa, "   [   ")
+var_4.b = 5
+arg3[0x42] = 0xf
+arg3[0x41] = 0
+arg3[0x3d].b = 0
+sub_401270(&arg3[0x3d], 6, 0x733200)
+var_4.b = 6
+arg3[0x49] = 0xf
+arg3[0x48] = 0
+arg3[0x44].b = 0
+sub_401270(&arg3[0x44], 8, "    ")
+var_4.b = 7
+arg3[0x50] = 0xf
+arg3[0x4f] = 0
+arg3[0x4b].b = 0
+sub_401270(&arg3[0x4b], 8, "      ")
+var_4.b = 8
+arg3[0x57] = 0xf
+arg3[0x56] = 0
+arg3[0x52].b = 0
+sub_401270(&arg3[0x52], 0xb, "          Z")
+var_4.b = 9
+arg3[0x5e] = 0xf
+arg3[0x5d] = 0
+arg3[0x59].b = 0
+sub_401270(&arg3[0x59], 0x10, "   ADD[ r, g, b]")
+var_4.b = 0xa
+arg3[0x65] = 0xf
+arg3[0x64] = 0
+arg3[0x60].b = 0
+sub_401270(&arg3[0x60], 0x10, "   MUL[ r, g, b]")
+var_4.b = 0xb
+arg3[0x6c] = 0xf
+arg3[0x6b] = 0
+arg3[0x67].b = 0
+sub_401270(&arg3[0x67], 6, 0x733254)
+var_4.b = 0xc
+arg3[0x73] = 0xf
+arg3[0x72] = 0
+arg3[0x6e].b = 0
+sub_401270(&arg3[0x6e], 5, 0x73325c)
+var_4.b = 0xd
+arg3[0x7a] = 0xf
+arg3[0x79] = 0
+arg3[0x75].b = 0
+sub_401270(&arg3[0x75], 5, 0x733264)
+var_4.b = 0xe
+arg3[0x81] = 0xf
+arg3[0x80] = 0
+arg3[0x7c].b = 0
+sub_401270(&arg3[0x7c], 5, 0x73326c)
+var_4.b = 0xf
+arg3[0x88] = 0xf
+arg3[0x87] = 0
+arg3[0x83].b = 0
+sub_401270(&arg3[0x83], 0xe, 0x733274)
+var_4.b = 0x10
+arg3[0x8f] = 0xf
+arg3[0x8e] = 0
+arg3[0x8a].b = 0
+sub_401270(&arg3[0x8a], 8, 0x733284)
+var_4.b = 0x11
+arg3[0x96] = 0xf
+arg3[0x95] = 0
+arg3[0x91].b = 0
+sub_401270(&arg3[0x91], 0xc, 0x733290)
+var_4.b = 0x12
+arg3[0x9d] = 0xf
+arg3[0x9c] = 0
+arg3[0x98].b = 0
+sub_401270(&arg3[0x98], 0xc, 0x7332a0)
+var_4.b = 0x13
+arg3[0xa4] = 0xf
+arg3[0xa3] = 0
+arg3[0x9f].b = 0
+sub_401270(&arg3[0x9f], 0xb, 0x7332b0)
+var_4.b = 0x14
+arg3[0xab] = 0xf
+arg3[0xaa] = 0
+arg3[0xa6].b = 0
+sub_401270(&arg3[0xa6], 0xa, 0x7332bc)
+var_4.b = 0x15
+arg3[0xb2] = 0xf
+arg3[0xb1] = 0
+arg3[0xad].b = 0
+sub_401270(&arg3[0xad], 0xc, 0x7332c8)
+var_4.b = 0x16
+arg3[0xb9] = 0xf
+arg3[0xb8] = 0
+arg3[0xb4].b = 0
+sub_401270(&arg3[0xb4], 0xa, " ,     y ]")
+var_4.b = 0x17
+arg3[0xc0] = 0xf
+arg3[0xbf] = 0
+arg3[0xbb].b = 0
+sub_401270(&arg3[0xbb], 0xe, 0x7332e4)
+var_4.b = 0x18
+arg3[0xc7] = 0xf
+arg3[0xc6] = 0
+arg3[0xc2].b = 0
+sub_401270(&arg3[0xc2], 0xa, " ,       y")
+var_4.b = 0x19
+arg3[0xce] = 0xf
+arg3[0xcd] = 0
+arg3[0xc9].b = 0
+sub_401270(&arg3[0xc9], 0xc, " ,       z ]")
+arg3[0xd0].b = 0
+__builtin_memset(&arg3[0xd1], 0, 0x1d)
+arg3[0xda] = 0
+arg3[0xdb] = 0
+arg3[0xdc] = 1
+arg3[0xdd] = 0
+arg3[0xde] = 0
+arg3[0xdf].b = 1
+arg3[0xd9] = &dpparts::CGuiVScrollBar::`vftable'{for `dpparts::CGuiScrollBar'}
+__builtin_memset(&arg3[0xe1], 0, 0x14)
+arg3[0xe6].b = 1
+arg3[0xe0] = &dpparts::CGuiHScrollBar::`vftable'{for `dpparts::CGuiScrollBar'}
+var_4.b = 0x1c
+arg3[0xe9] = 0
+int32_t* eax_6 = sub_4ecfc0(1)
+arg3[0xe8] = eax_6
+*eax_6 = eax_6
+void* eax_7 = arg3[0xe8]
+*(eax_7 + 4) = eax_7
+void* eax_8 = arg3[0xe8]
+*(eax_8 + 8) = eax_8
+*(arg3[0xe8] + 0x14) = 1
+*(arg3[0xe8] + 0x15) = 1
+var_4.b = 0x1d
+arg3[0xed] = 0
+int32_t* eax_10 = sub_4ecfc0(1)
+arg3[0xec] = eax_10
+*eax_10 = eax_10
+void* eax_11 = arg3[0xec]
+*(eax_11 + 4) = eax_11
+void* eax_12 = arg3[0xec]
+*(eax_12 + 8) = eax_12
+*(arg3[0xec] + 0x14) = 1
+*(arg3[0xec] + 0x15) = 1
+arg3[0xef] = 0
+arg3[0xf0] = 0
+arg3[0xf1] = 0
+arg3[0xf3] = 0
+arg3[0xf4] = 0
+arg3[0xf5] = 0
+var_4.b = 0x20
+sub_64dcc0(&arg3[0xf7])
+var_4.b = 0x21
+sub_64e6c0(&arg3[0x117])
+arg3[0x138] = 1
+__builtin_memset(&arg3[0x139], 1, 0x14)
+fsbase->NtTib.ExceptionList = ExceptionList
+return arg3

@@ -1,0 +1,7 @@
+// 函数: sub_7281e8
+// 地址: 0x7281e8
+// 来自: E:\torrent\AliceSoft\ランス01\Rance01.exe
+
+sub_6b4885(*(arg1 - 0xd8) ^ (arg1 - 0xd4))
+sub_6b4885(*(arg1 - 8) ^ (arg1 - 0xc8))
+return sub_6bb3b5(0x7896d8) __tailcall

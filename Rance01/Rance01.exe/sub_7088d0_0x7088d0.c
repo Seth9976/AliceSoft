@@ -1,0 +1,89 @@
+// 函数: sub_7088d0
+// 地址: 0x7088d0
+// 来自: E:\torrent\AliceSoft\ランス01\Rance01.exe
+
+int64_t* esi = arg2
+void* edi = arg4
+void* eax = arg5
+int64_t* ebx = arg6
+int32_t i_1 = 8
+int64_t st6 = data_78e2e0
+int32_t i
+
+do
+    uint8_t st0[0x8] = *esi
+    uint8_t st4[0x8] = esi[1]
+    uint8_t temp0_1[0x8] = _m_punpckhwd(st0, 0)
+    int64_t temp0_2 = _m_punpckhbw(st0, 0)
+    uint8_t temp0_3[0x8] = _m_punpckhwd(st4, 0)
+    int64_t temp0_4 = _m_punpckhbw(st4, 0)
+    uint8_t st2[0x8] = _m_psrlqi(temp0_1, 0x20)
+    uint64_t temp0_6 = _m_psrlqi(temp0_2, 0x20)
+    st0 = _m_punpcklwd(temp0_1, st2[0].d)
+    int64_t st1 = _m_punpcklwd(temp0_2, temp0_6.d)
+    st2 = st0
+    st0 = _m_punpckldq(st0, st1.d)
+    st2 = _m_punpckhdq(st2, st1.d)
+    uint64_t temp0_11 = _m_psrlqi(temp0_3, 0x20)
+    uint64_t temp0_12 = _m_psrlqi(temp0_4, 0x20)
+    st4 = _m_punpcklwd(temp0_3, temp0_11.d)
+    int64_t st5 = _m_punpcklwd(temp0_4, temp0_12.d)
+    st1 = st4
+    int64_t st3 = st2
+    st4 = _m_punpckldq(st4, st5.d)
+    int64_t temp0_16 = _m_punpckhdq(st1, st5.d)
+    st0 = _m_psubw(st0, st6)
+    st4 = _m_psubw(st4, st6)
+    *edi = st0
+    *(edi + 8) = st4
+    st2 = _m_punpcklwd(st2, temp0_16.d)
+    int64_t temp0_20 = __punpckhwd_mmxq_mmxd(st3, temp0_16.d)
+    st5 = st2
+    st2 = _m_punpcklwd(st2, temp0_20.d)
+    int64_t temp0_22 = __punpckhwd_mmxq_mmxd(st5, temp0_20.d)
+    st2 = _m_psubw(st2, st6)
+    int64_t temp0_24 = _m_psubw(temp0_22, st6)
+    *eax = st2
+    *ebx = temp0_24
+    st0 = esi[2]
+    st4 = esi[3]
+    uint8_t temp0_25[0x8] = _m_punpckhwd(st0, 0)
+    int64_t temp0_26 = _m_punpckhbw(st0, 0)
+    uint8_t temp0_27[0x8] = _m_punpckhwd(st4, 0)
+    int64_t temp0_28 = _m_punpckhbw(st4, 0)
+    st2 = _m_psrlqi(temp0_25, 0x20)
+    uint64_t temp0_30 = _m_psrlqi(temp0_26, 0x20)
+    st0 = _m_punpcklwd(temp0_25, st2[0].d)
+    st1 = _m_punpcklwd(temp0_26, temp0_30.d)
+    st2 = st0
+    st0 = _m_punpckldq(st0, st1.d)
+    st2 = _m_punpckhdq(st2, st1.d)
+    uint64_t temp0_35 = _m_psrlqi(temp0_27, 0x20)
+    uint64_t temp0_36 = _m_psrlqi(temp0_28, 0x20)
+    st4 = _m_punpcklwd(temp0_27, temp0_35.d)
+    st5 = _m_punpcklwd(temp0_28, temp0_36.d)
+    st1 = st4
+    st3 = st2
+    st4 = _m_punpckldq(st4, st5.d)
+    int64_t temp0_40 = _m_punpckhdq(st1, st5.d)
+    st0 = _m_psubw(st0, st6)
+    st4 = _m_psubw(st4, st6)
+    *(edi + 0x80) = st0
+    *(edi + 0x88) = st4
+    st2 = _m_punpcklwd(st2, temp0_40.d)
+    int64_t temp0_44 = __punpckhwd_mmxq_mmxd(st3, temp0_40.d)
+    st5 = st2
+    st2 = _m_punpcklwd(st2, temp0_44.d)
+    int64_t temp0_46 = __punpckhwd_mmxq_mmxd(st5, temp0_44.d)
+    st2 = _m_psubw(st2, st6)
+    int64_t temp0_48 = _m_psubw(temp0_46, st6)
+    *(eax + 8) = st2
+    ebx[1] = temp0_48
+    edi += 0x10
+    eax += 0x10
+    ebx = &ebx[2]
+    esi += arg3
+    i = i_1
+    i_1 -= 1
+while (i != 1)
+return arg1

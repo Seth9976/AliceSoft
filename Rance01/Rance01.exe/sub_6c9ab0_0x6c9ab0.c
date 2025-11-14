@@ -1,0 +1,64 @@
+// 函数: sub_6c9ab0
+// 地址: 0x6c9ab0
+// 来自: E:\torrent\AliceSoft\ランス01\Rance01.exe
+
+*(arg1 + 0x1c) = sub_6cea50
+*(arg1 + 0x20) = sub_6cfee0
+*(arg1 + 0xfc) = sub_6cea30
+*(arg1 + 0x100) = sub_6cfb30
+*(arg1 + 0x104) = sub_6cea30
+*(arg1 + 0xf0) = sub_6d09a0
+*(arg1 + 0xf4) = sub_6d2080
+*(arg1 + 0xf8) = sub_6d2100
+*(arg1 + 0x108) = sub_6ced70
+*(arg1 + 0x10c) = sub_6d2a60
+*(arg1 + 0x110) = sub_6ced70
+*(arg1 + 0x24) = sub_6cf1e0
+*(arg1 + 0x28) = sub_6cf200
+*(arg1 + 0x2c) = sub_6cf750
+*(arg1 + 0x30) = sub_6cf9b0
+*(arg1 + 0x34) = sub_6d2f90
+*(arg1 + 0x38) = sub_6d2ff0
+*(arg1 + 0x3c) = sub_6d34f0
+*(arg1 + 0x40) = sub_6d37e0
+__builtin_memset(arg1 + 0x44, 0, 0x14)
+*(arg1 + 0x58) = sub_6d3880
+*(arg1 + 0x5c) = sub_6d3b40
+*(arg1 + 0x60) = 0
+*(arg1 + 0x64) = sub_6de690
+*(arg1 + 0x68) = sub_6d4c10
+*(arg1 + 0x6c) = sub_6d84b0
+*(arg1 + 0x70) = sub_6d66e0
+*(arg1 + 0x74) = sub_6d55b0
+*(arg1 + 0x78) = sub_6d90b0
+*(arg1 + 0x7c) = sub_6d7860
+*(arg1 + 0x80) = sub_6dc2e0
+*(arg1 + 0x84) = sub_6dd550
+*(arg1 + 0x88) = sub_6dcf40
+*(arg1 + 0x8c) = sub_6de020
+*(arg1 + 0x90) = sub_6d9a20
+*(arg1 + 0x94) = sub_6da680
+*(arg1 + 0x98) = sub_6db950
+*(arg1 + 0x9c) = sub_6dbda0
+*(arg1 + 0xa0) = 0
+*(arg1 + 0xa4) = sub_6f24e0
+*(arg1 + 0xa8) = sub_6f2840
+*(arg1 + 0xac) = sub_6f27c0
+*(arg1 + 0xb0) = sub_6e69b0
+*(arg1 + 0xb4) = sub_6f2800
+*(arg1 + 0xb8) = sub_6f2740
+*(arg1 + 0xbc) = sub_6e7a50
+*(arg1 + 0xc0) = sub_6f26c0
+*(arg1 + 0xc4) = sub_6f2680
+*(arg1 + 0xc8) = sub_6f2640
+*(arg1 + 0xcc) = sub_6ef590
+*(arg1 + 0xd0) = sub_6f0100
+*(arg1 + 0xd4) = sub_6efaa0
+*(arg1 + 0xd8) = sub_6eede0
+*(arg1 + 0xdc) = sub_6f2510
+*(arg1 + 0xe0) = sub_6f25f0
+*(arg1 + 0xe4) = sub_6f25a0
+*(arg1 + 0xe8) = sub_6f2550
+*(arg1 + 0xec) = sub_6ef1a0
+*(arg1 + 0x18) = sub_6f2900
+return sub_6cea30

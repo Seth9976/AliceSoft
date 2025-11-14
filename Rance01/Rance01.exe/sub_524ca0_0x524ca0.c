@@ -1,0 +1,34 @@
+// 函数: sub_524ca0
+// 地址: 0x524ca0
+// 来自: E:\torrent\AliceSoft\ランス01\Rance01.exe
+
+int32_t eax
+
+if (arg1 s>= 0)
+    eax = data_797d4c
+    
+    if (arg1 s< (*(eax + 0x44) - *(eax + 0x40)) s>> 2)
+        eax = *(*(eax + 0x40) + (arg1 << 2))
+        
+        if (eax != 0 && arg2 s>= 0)
+            int32_t ecx = *(eax + 0x10)
+            
+            if (arg2 s< (*(eax + 0x14) - ecx) s>> 2)
+                eax = *(ecx + (arg2 << 2))
+                
+                if (eax != 0)
+                    long double x87_r7_1 = float.t(0)
+                    float var_c = fconvert.s(x87_r7_1)
+                    float var_8_1 = fconvert.s(x87_r7_1)
+                    float var_4_1 = fconvert.s(x87_r7_1)
+                    
+                    if (sub_4c58d0(eax, arg2, arg3, &var_c).b != 0)
+                        *arg4 = fconvert.s(fconvert.t(var_c))
+                        *arg5 = fconvert.s(fconvert.t(var_8_1))
+                        *arg6 = fconvert.s(fconvert.t(var_4_1))
+                        float* eax_4
+                        eax_4.b = 1
+                        return eax_4
+
+eax.b = 0
+return eax

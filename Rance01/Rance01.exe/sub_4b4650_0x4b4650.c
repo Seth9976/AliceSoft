@@ -1,0 +1,51 @@
+// 函数: sub_4b4650
+// 地址: 0x4b4650
+// 来自: E:\torrent\AliceSoft\ランス01\Rance01.exe
+
+long double x87_r7_4 = float.t(0)
+arg2[1] = arg1
+*arg2 = &sealengine::CBone::`vftable'
+arg2[2] = arg3
+arg2[6] = fconvert.s(x87_r7_4)
+arg2[5] = fconvert.s(x87_r7_4)
+arg2[3] = &sealengine::CSQT::`vftable'
+arg2[4] = fconvert.s(x87_r7_4)
+arg2[0xb] = &sealengine::CDualQuaternion::`vftable'
+long double x87_r6 = float.t(1)
+arg2[7] = fconvert.s(x87_r6)
+arg2[8] = fconvert.s(x87_r7_4)
+arg2[9] = fconvert.s(x87_r7_4)
+arg2[0xa] = fconvert.s(x87_r7_4)
+arg2[0xc] = fconvert.s(x87_r7_4)
+arg2[0xd] = fconvert.s(x87_r7_4)
+arg2[0xe] = fconvert.s(x87_r7_4)
+arg2[0xf] = fconvert.s(x87_r6)
+arg2[0x10] = fconvert.s(x87_r7_4)
+arg2[0x11] = fconvert.s(x87_r7_4)
+arg2[0x12] = fconvert.s(x87_r7_4)
+arg2[0x13] = fconvert.s(x87_r7_4)
+long double x87_r5 = fconvert.t(-180f)
+arg2[0x14].b = 0
+arg2[0x15] = fconvert.s(x87_r5)
+arg2[0x16] = fconvert.s(x87_r5)
+arg2[0x17] = fconvert.s(x87_r5)
+long double x87_r5_1 = fconvert.t(180f)
+arg2[0x18] = fconvert.s(x87_r5_1)
+arg2[0x19] = fconvert.s(x87_r5_1)
+arg2[0x1a] = fconvert.s(x87_r5_1)
+arg2[0x1b] = fconvert.s(x87_r7_4)
+arg2[0x1c] = fconvert.s(x87_r7_4)
+arg2[0x1d] = fconvert.s(x87_r7_4)
+arg2[0x1e] = fconvert.s(fconvert.t(0.5f))
+arg2[0x1f] = fconvert.s(x87_r7_4)
+arg2[0x20] = fconvert.s(x87_r7_4)
+arg2[0x21] = fconvert.s(x87_r7_4)
+arg2[0x22] = fconvert.s(x87_r6)
+arg2[0x23] = fconvert.s(x87_r7_4)
+arg2[0x24] = fconvert.s(x87_r7_4)
+arg2[0x25] = fconvert.s(x87_r7_4)
+arg2[0x26].b = 0
+arg2[0x27] = fconvert.s(fconvert.t(0.200000003f))
+arg2[0x28] = fconvert.s(x87_r7_4)
+arg2[0x29] = fconvert.s(x87_r7_4)
+arg2[0x2a] = fconvert.s(x87_r7_4)

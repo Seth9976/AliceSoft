@@ -1,0 +1,105 @@
+// 函数: sub_703ae0
+// 地址: 0x703ae0
+// 来自: E:\torrent\AliceSoft\ランス01\Rance01.exe
+
+if ((arg1 & 0xf) == 0)
+    if ((arg2 & 0xf) == 0)
+        int32_t xmm2_24[0x4] = arg1[1]
+        int32_t xmm3_12[0x4] = arg2[1]
+        int32_t xmm0_25[0x4] = _mm_mullo_epi16(*arg1, *arg2)
+        int32_t xmm2_25[0x4] = _mm_mullo_epi16(xmm2_24, xmm3_12)
+        *arg1 = xmm0_25
+        arg1[1] = xmm2_25
+        int32_t xmm2_26[0x4] = arg1[3]
+        int32_t xmm3_13[0x4] = arg2[3]
+        int32_t xmm0_27[0x4] = _mm_mullo_epi16(arg1[2], arg2[2])
+        int32_t xmm2_27[0x4] = _mm_mullo_epi16(xmm2_26, xmm3_13)
+        arg1[2] = xmm0_27
+        arg1[3] = xmm2_27
+        int32_t xmm2_28[0x4] = arg1[5]
+        int32_t xmm3_14[0x4] = arg2[5]
+        int32_t xmm0_29[0x4] = _mm_mullo_epi16(arg1[4], arg2[4])
+        int32_t xmm2_29[0x4] = _mm_mullo_epi16(xmm2_28, xmm3_14)
+        arg1[4] = xmm0_29
+        arg1[5] = xmm2_29
+        int32_t xmm2_30[0x4] = arg1[7]
+        int32_t xmm3_15[0x4] = arg2[7]
+        int32_t xmm0_31[0x4] = _mm_mullo_epi16(arg1[6], arg2[6])
+        int32_t xmm2_31[0x4] = _mm_mullo_epi16(xmm2_30, xmm3_15)
+        arg1[6] = xmm0_31
+        arg1[7] = xmm2_31
+    else
+        int32_t xmm2_16[0x4] = arg1[1]
+        int32_t xmm3_8[0x4] = arg2[1]
+        int32_t xmm0_17[0x4] = _mm_mullo_epi16(*arg1, *arg2)
+        int32_t xmm2_17[0x4] = _mm_mullo_epi16(xmm2_16, xmm3_8)
+        *arg1 = xmm0_17
+        arg1[1] = xmm2_17
+        int32_t xmm2_18[0x4] = arg1[3]
+        int32_t xmm3_9[0x4] = arg2[3]
+        int32_t xmm0_19[0x4] = _mm_mullo_epi16(arg1[2], arg2[2])
+        int32_t xmm2_19[0x4] = _mm_mullo_epi16(xmm2_18, xmm3_9)
+        arg1[2] = xmm0_19
+        arg1[3] = xmm2_19
+        int32_t xmm2_20[0x4] = arg1[5]
+        int32_t xmm3_10[0x4] = arg2[5]
+        int32_t xmm0_21[0x4] = _mm_mullo_epi16(arg1[4], arg2[4])
+        int32_t xmm2_21[0x4] = _mm_mullo_epi16(xmm2_20, xmm3_10)
+        arg1[4] = xmm0_21
+        arg1[5] = xmm2_21
+        int32_t xmm2_22[0x4] = arg1[7]
+        int32_t xmm3_11[0x4] = arg2[7]
+        int32_t xmm0_23[0x4] = _mm_mullo_epi16(arg1[6], arg2[6])
+        int32_t xmm2_23[0x4] = _mm_mullo_epi16(xmm2_22, xmm3_11)
+        arg1[6] = xmm0_23
+        arg1[7] = xmm2_23
+else if ((arg2 & 0xf) == 0)
+    int32_t xmm2_8[0x4] = arg1[1]
+    int32_t xmm3_4[0x4] = arg2[1]
+    int32_t xmm0_9[0x4] = _mm_mullo_epi16(*arg1, *arg2)
+    int32_t xmm2_9[0x4] = _mm_mullo_epi16(xmm2_8, xmm3_4)
+    *arg1 = xmm0_9
+    arg1[1] = xmm2_9
+    int32_t xmm2_10[0x4] = arg1[3]
+    int32_t xmm3_5[0x4] = arg2[3]
+    int32_t xmm0_11[0x4] = _mm_mullo_epi16(arg1[2], arg2[2])
+    int32_t xmm2_11[0x4] = _mm_mullo_epi16(xmm2_10, xmm3_5)
+    arg1[2] = xmm0_11
+    arg1[3] = xmm2_11
+    int32_t xmm2_12[0x4] = arg1[5]
+    int32_t xmm3_6[0x4] = arg2[5]
+    int32_t xmm0_13[0x4] = _mm_mullo_epi16(arg1[4], arg2[4])
+    int32_t xmm2_13[0x4] = _mm_mullo_epi16(xmm2_12, xmm3_6)
+    arg1[4] = xmm0_13
+    arg1[5] = xmm2_13
+    int32_t xmm2_14[0x4] = arg1[7]
+    int32_t xmm3_7[0x4] = arg2[7]
+    int32_t xmm0_15[0x4] = _mm_mullo_epi16(arg1[6], arg2[6])
+    int32_t xmm2_15[0x4] = _mm_mullo_epi16(xmm2_14, xmm3_7)
+    arg1[6] = xmm0_15
+    arg1[7] = xmm2_15
+else
+    int32_t xmm2[0x4] = arg1[1]
+    int32_t xmm3[0x4] = arg2[1]
+    int32_t xmm0_1[0x4] = _mm_mullo_epi16(*arg1, *arg2)
+    int32_t xmm2_1[0x4] = _mm_mullo_epi16(xmm2, xmm3)
+    *arg1 = xmm0_1
+    arg1[1] = xmm2_1
+    int32_t xmm2_2[0x4] = arg1[3]
+    int32_t xmm3_1[0x4] = arg2[3]
+    int32_t xmm0_3[0x4] = _mm_mullo_epi16(arg1[2], arg2[2])
+    int32_t xmm2_3[0x4] = _mm_mullo_epi16(xmm2_2, xmm3_1)
+    arg1[2] = xmm0_3
+    arg1[3] = xmm2_3
+    int32_t xmm2_4[0x4] = arg1[5]
+    int32_t xmm3_2[0x4] = arg2[5]
+    int32_t xmm0_5[0x4] = _mm_mullo_epi16(arg1[4], arg2[4])
+    int32_t xmm2_5[0x4] = _mm_mullo_epi16(xmm2_4, xmm3_2)
+    arg1[4] = xmm0_5
+    arg1[5] = xmm2_5
+    int32_t xmm2_6[0x4] = arg1[7]
+    int32_t xmm3_3[0x4] = arg2[7]
+    int32_t xmm0_7[0x4] = _mm_mullo_epi16(arg1[6], arg2[6])
+    int32_t xmm2_7[0x4] = _mm_mullo_epi16(xmm2_6, xmm3_3)
+    arg1[6] = xmm0_7
+    arg1[7] = xmm2_7

@@ -1,0 +1,11 @@
+// 函数: sub_65c600
+// 地址: 0x65c600
+// 来自: E:\torrent\AliceSoft\ランス01\Rance01.exe
+
+sub_65c620(arg1)
+
+if ((arg2 & 1) != 0)
+    struct dpparts::CWindow::dpparts::CViewWindow::VTable** var_8_1 = arg1
+    sub_6b4d5b()
+
+return arg1

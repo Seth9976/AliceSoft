@@ -1,0 +1,101 @@
+// 函数: sub_6dca30
+// 地址: 0x6dca30
+// 来自: E:\torrent\AliceSoft\ランス01\Rance01.exe
+
+char* edi = arg1
+int16_t* ecx = arg3
+int16_t* esi = arg4
+void* result = arg5
+int32_t i_1 = 0
+int32_t i
+
+do
+    *ecx = zx.w(*edi) - 0x80
+    ecx[1] = zx.w(edi[3]) - 0x80
+    ecx[2] = zx.w(edi[6]) - 0x80
+    ecx[3] = zx.w(edi[9]) - 0x80
+    ecx[4] = zx.w(edi[0xc]) - 0x80
+    ecx[5] = zx.w(edi[0xf]) - 0x80
+    ecx[6] = zx.w(edi[0x12]) - 0x80
+    ecx[7] = zx.w(edi[0x15]) - 0x80
+    ecx[0x40] = zx.w(edi[0x18]) - 0x80
+    ecx[0x41] = zx.w(edi[0x1b]) - 0x80
+    ecx[0x42] = zx.w(edi[0x1e]) - 0x80
+    ecx[0x43] = zx.w(edi[0x21]) - 0x80
+    ecx[0x44] = zx.w(edi[0x24]) - 0x80
+    ecx[0x45] = zx.w(edi[0x27]) - 0x80
+    ecx[0x46] = zx.w(edi[0x2a]) - 0x80
+    ecx[0x47] = zx.w(edi[0x2d]) - 0x80
+    uint32_t eax_33 = zx.d(edi[1]) + zx.d(edi[4])
+    uint32_t edx_3 = zx.d(edi[7]) + zx.d(edi[0xa])
+    uint32_t ebp_2 = zx.d(edi[0xd]) + zx.d(edi[0x10])
+    uint32_t ebp_4 = zx.d(edi[0x13]) + zx.d(edi[0x16])
+    uint32_t ebp_6 = zx.d(edi[0x19]) + zx.d(edi[0x1c])
+    uint32_t ebp_8 = zx.d(edi[0x1f]) + zx.d(edi[0x22])
+    uint32_t ebp_10 = zx.d(edi[0x25]) + zx.d(edi[0x28])
+    uint32_t ebp_12 = zx.d(edi[0x2b]) + zx.d(edi[0x2e])
+    uint32_t ebp_14 = zx.d(edi[2]) + zx.d(edi[5])
+    uint32_t ebp_16 = zx.d(edi[8]) + zx.d(edi[0xb])
+    uint32_t ebp_18 = zx.d(edi[0xe]) + zx.d(edi[0x11])
+    uint32_t ebp_20 = zx.d(edi[0x14]) + zx.d(edi[0x17])
+    uint32_t ebp_22 = zx.d(edi[0x1a]) + zx.d(edi[0x1d])
+    uint32_t ebp_24 = zx.d(edi[0x20]) + zx.d(edi[0x23])
+    uint32_t ebp_26 = zx.d(edi[0x26]) + zx.d(edi[0x29])
+    uint32_t ebp_28 = zx.d(edi[0x2c]) + zx.d(edi[0x2f])
+    void* edi_1 = &edi[arg2]
+    ecx[8] = zx.w(*edi_1) - 0x80
+    ecx[9] = zx.w(*(edi_1 + 3)) - 0x80
+    ecx[0xa] = zx.w(*(edi_1 + 6)) - 0x80
+    ecx[0xb] = zx.w(*(edi_1 + 9)) - 0x80
+    ecx[0xc] = zx.w(*(edi_1 + 0xc)) - 0x80
+    ecx[0xd] = zx.w(*(edi_1 + 0xf)) - 0x80
+    ecx[0xe] = zx.w(*(edi_1 + 0x12)) - 0x80
+    ecx[0xf] = zx.w(*(edi_1 + 0x15)) - 0x80
+    ecx[0x48] = zx.w(*(edi_1 + 0x18)) - 0x80
+    ecx[0x49] = zx.w(*(edi_1 + 0x1b)) - 0x80
+    ecx[0x4a] = zx.w(*(edi_1 + 0x1e)) - 0x80
+    ecx[0x4b] = zx.w(*(edi_1 + 0x21)) - 0x80
+    ecx[0x4c] = zx.w(*(edi_1 + 0x24)) - 0x80
+    ecx[0x4d] = zx.w(*(edi_1 + 0x27)) - 0x80
+    ecx[0x4e] = zx.w(*(edi_1 + 0x2a)) - 0x80
+    ecx[0x4f] = zx.w(*(edi_1 + 0x2d)) - 0x80
+    uint32_t ebx_49 = zx.d(*(edi_1 + 7)) + zx.d(*(edi_1 + 0xa))
+    uint32_t ebx_51 = zx.d(*(edi_1 + 0xd)) + zx.d(*(edi_1 + 0x10))
+    uint32_t ebx_53 = zx.d(*(edi_1 + 0x13)) + zx.d(*(edi_1 + 0x16))
+    uint32_t ebx_55 = zx.d(*(edi_1 + 0x19)) + zx.d(*(edi_1 + 0x1c))
+    uint32_t ebx_57 = zx.d(*(edi_1 + 0x1f)) + zx.d(*(edi_1 + 0x22))
+    uint32_t ebx_59 = zx.d(*(edi_1 + 0x25)) + zx.d(*(edi_1 + 0x28))
+    uint32_t ebx_61 = zx.d(*(edi_1 + 0x2b)) + zx.d(*(edi_1 + 0x2e))
+    uint32_t ebx_63 = zx.d(*(edi_1 + 2)) + zx.d(*(edi_1 + 5))
+    uint32_t ebx_65 = zx.d(*(edi_1 + 8)) + zx.d(*(edi_1 + 0xb))
+    uint32_t ebx_67 = zx.d(*(edi_1 + 0xe)) + zx.d(*(edi_1 + 0x11))
+    uint32_t ebx_69 = zx.d(*(edi_1 + 0x14)) + zx.d(*(edi_1 + 0x17))
+    uint32_t ebx_71 = zx.d(*(edi_1 + 0x1a)) + zx.d(*(edi_1 + 0x1d))
+    uint32_t ebx_73 = zx.d(*(edi_1 + 0x20)) + zx.d(*(edi_1 + 0x23))
+    uint32_t ecx_16 = zx.d(*(edi_1 + 0x26)) + zx.d(*(edi_1 + 0x29))
+    uint32_t ebx_76 = zx.d(*(edi_1 + 0x2c)) + zx.d(*(edi_1 + 0x2f))
+    *esi = ((zx.d(*(edi_1 + 1)) + zx.d(*(edi_1 + 4)) + eax_33 + 2) s>> 2).w - 0x80
+    esi[1] = ((ebx_49 + edx_3 + 2) s>> 2).w - 0x80
+    esi[2] = ((ebx_51 + ebp_2 + 2) s>> 2).w - 0x80
+    esi[3] = ((ebx_53 + ebp_4 + 2) s>> 2).w - 0x80
+    esi[4] = ((ebx_55 + ebp_6 + 2) s>> 2).w - 0x80
+    esi[5] = ((ebx_57 + ebp_8 + 2) s>> 2).w - 0x80
+    esi[6] = ((ebx_59 + ebp_10 + 2) s>> 2).w - 0x80
+    esi[7] = ((ebx_61 + ebp_12 + 2) s>> 2).w - 0x80
+    int16_t* result_1 = result
+    *result_1 = ((ebx_63 + ebp_14 + 2) s>> 2).w - 0x80
+    result_1[1] = ((ebx_65 + ebp_16 + 2) s>> 2).w - 0x80
+    result_1[2] = ((ebx_67 + ebp_18 + 2) s>> 2).w - 0x80
+    result_1[3] = ((ebx_69 + ebp_20 + 2) s>> 2).w - 0x80
+    result_1[4] = ((ebx_71 + ebp_22 + 2) s>> 2).w - 0x80
+    esi = &esi[8]
+    result_1[5] = ((ebx_73 + ebp_24 + 2) s>> 2).w - 0x80
+    result_1[6] = ((ecx_16 + ebp_26 + 2) s>> 2).w - 0x80
+    result_1[7] = ((ebx_76 + ebp_28 + 2) s>> 2).w - 0x80
+    result = &result_1[8]
+    ecx = &ecx[0x10]
+    edi = edi_1 + arg2
+    i = i_1 + 2
+    i_1 = i
+while (i s< 8)
+return result

@@ -1,0 +1,7 @@
+// 函数: sub_728353
+// 地址: 0x728353
+// 来自: E:\torrent\AliceSoft\ランス01\Rance01.exe
+
+sub_6b4885(*(arg1 - 0x3c) ^ (arg1 - 0x38))
+sub_6b4885(*(arg1 - 4) ^ (arg1 - 0x28))
+return sub_6bb3b5(0x7898d8) __tailcall

@@ -1,0 +1,31 @@
+// 函数: sub_519780
+// 地址: 0x519780
+// 来自: E:\torrent\AliceSoft\ランス01\Rance01.exe
+
+long double x87_r7 = float.t(0)
+arg1[4] = 1
+*arg1 = 0
+arg1[1] = 0
+arg1[2] = 0
+arg1[5] = fconvert.s(x87_r7)
+arg1[6] = fconvert.s(x87_r7)
+arg1[7] = fconvert.s(x87_r7)
+arg1[8] = fconvert.s(x87_r7)
+arg1[9] = fconvert.s(x87_r7)
+arg1[0xa] = fconvert.s(x87_r7)
+__builtin_memset(&arg1[0xb], 0, 0x80)
+arg1[0x2d] = fconvert.s(x87_r7)
+arg1[0x2e] = fconvert.s(x87_r7)
+arg1[0x2b] = 0
+arg1[0x2f] = fconvert.s(x87_r7)
+arg1[0x2c] = 0
+arg1[0x30] = fconvert.s(x87_r7)
+arg1[0x31] = fconvert.s(x87_r7)
+arg1[0x32] = fconvert.s(x87_r7)
+arg1[0x33] = fconvert.s(x87_r7)
+arg1[0x34] = fconvert.s(x87_r7)
+arg1[0x35] = fconvert.s(x87_r7)
+arg1[0x36] = fconvert.s(x87_r7)
+arg1[0x39] = 0
+arg1[0x37] = fconvert.s(x87_r7)
+arg1[0x38] = fconvert.s(x87_r7)

@@ -1,0 +1,5 @@
+// 函数: sub_71c150
+// 地址: 0x71c150
+// 来自: E:\torrent\AliceSoft\ランス01\Rance01.exe
+
+return sub_669fc0(*(arg1 + 4) + 8)

@@ -1,0 +1,20 @@
+// 函数: sub_4b28b0
+// 地址: 0x4b28b0
+// 来自: E:\torrent\AliceSoft\ランス01\Rance01.exe
+
+*arg1 = fconvert.s(fconvert.t(arg2))
+arg1[1] = fconvert.s(fconvert.t(arg3))
+arg1[2] = fconvert.s(fconvert.t(arg4))
+arg1[3] = fconvert.s(fconvert.t(arg5))
+arg1[4] = fconvert.s(fconvert.t(arg6))
+arg1[5] = fconvert.s(fconvert.t(arg7))
+arg1[6] = fconvert.s(fconvert.t(arg8))
+arg1[7] = fconvert.s(fconvert.t(arg9))
+arg1[8] = fconvert.s(fconvert.t(arg10))
+arg1[9] = fconvert.s(fconvert.t(arg11))
+arg1[0xa] = fconvert.s(fconvert.t(arg12))
+arg1[0xb] = fconvert.s(fconvert.t(arg13))
+arg1[0xc] = fconvert.s(fconvert.t(arg14))
+arg1[0xd] = fconvert.s(fconvert.t(arg15))
+arg1[0xe] = fconvert.s(fconvert.t(arg16))
+arg1[0xf] = fconvert.s(fconvert.t(arg17))
