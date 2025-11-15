@@ -1,0 +1,1 @@
+string String(ref float self, int Decimal);
